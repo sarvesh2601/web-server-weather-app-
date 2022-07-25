@@ -7,6 +7,7 @@ const message2 = document.querySelector('#Message-2')
 SearchButton.addEventListener('submit', (e)=>{
 
     e.preventDefault();
+    
     const location = inputValue.value
     message1.textContent = 'Loading Forecast..'
     message2.textContent = ''
